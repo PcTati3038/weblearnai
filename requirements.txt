@@ -1,0 +1,9 @@
+flask
+langchain
+chromadb
+requests
+beautifulsoup4
+python-dotenv
+serpapi
+sentence-transformers
+huggingface_hub

@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  weblearnai:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+      - chroma_data:/app/chroma_db
+    env_file:
+      - .env
+
+volumes:
+  chroma_data:
